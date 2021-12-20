@@ -23,7 +23,7 @@ def load():
     file = filedialog.askopenfilename(filetypes=[("JSON files", ".json")], initialdir=curdir)
     # reinitialize our game if a file was picked
     if file:
-        game.filename = file + "_bak"
+        game.filename = file
         try:
             game.load()
             # refresh GUI possibilities
