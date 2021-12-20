@@ -1,0 +1,23 @@
+{
+    "elements": [
+        {
+            "name": "rock",
+            "win": [
+                "scissors"
+            ]
+        },
+        {
+            "name": "paper",
+            "win": [
+                "rock"
+            ]
+        },
+        {
+            "name": "scissors",
+            "win": [
+                "paper"
+            ]
+        }
+    ],
+    "filename": "vanilla.json"
+}

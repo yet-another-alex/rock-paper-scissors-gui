@@ -1,0 +1,40 @@
+{
+    "elements": [
+        {
+            "name": "rock",
+            "win": [
+                "scissors",
+                "lizard"
+            ]
+        },
+        {
+            "name": "lizard",
+            "win": [
+                "spock",
+                "paper"
+            ]
+        },
+        {
+            "name": "spock",
+            "win": [
+                "rock",
+                "scissors"
+            ]
+        },
+        {
+            "name": "paper",
+            "win": [
+                "rock",
+                "spock"
+            ]
+        },
+        {
+            "name": "scissors",
+            "win": [
+                "paper",
+                "lizard"
+            ]
+        }
+    ],
+    "filename": "rps.json"
+}
